@@ -44,7 +44,7 @@
     },
   "resources": [
     {
-      "type": "Microsoft.Resources/tags",
+      "type": "Microsoft.KeyVault/vaults/secrets/tags",
       "name": "[concat(parameters('keyVaultName'), '/', parameters('secretName'), '/tags')]",
       "apiVersion": "2019-10-01",
       "dependsOn": [
