@@ -11,9 +11,11 @@ Functions require following information stored in secret as tags:
 
 You can create new secret with above tags and Storage access key as value or add those tags to existing secret. For automated rotation expiry date would also be required - it triggers event 30 days before expiry
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fnidhunge%2FCosmosDBKeyAKVRotation%2Fmaster%2Fazuredeploy.json%3Ftoken%3DAKODVYZUQWTBBHSKP7FRUIS7GYMYW" target="_blank">
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
+
+
 
 Credit:
 
