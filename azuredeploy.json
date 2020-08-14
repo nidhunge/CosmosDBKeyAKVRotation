@@ -1,6 +1,6 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
-    "contentVersion": "1.0.0.0",
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+  "contentVersion": "1.0.0.0",
   "parameters": {
     "cosmosDbAccountName": {
       "defaultValue": "cosmos-dev",
@@ -43,18 +43,6 @@
 		"eventSubscriptionName": "[concat('kv-',parameters('secretName'),'-',parameters('functionAppName'))]"		
     },
   "resources": [
-    {
-      "type": "Microsoft.KeyVault/vaults/secrets/tags",
-      "name": "[concat(parameters('keyVaultName'), '/', parameters('secretName'), '/tags')]",
-      "apiVersion": "2019-10-01",
-      "properties": {
-        "tags": {
-          "ValidityPeriodDays": "60",
-          "CredentialId": "primary",
-          "ProviderAddress": "[concat('/subscriptions/',subscription().subscriptionId, '/resourceGroups/', resourcegroup().name, '/providers/Microsoft.DocumentDb/databaseAccounts/', 'parameters(cosmosDbAccountName)')]"
-        }
-      }
-    },
     {
       "type": "Microsoft.Storage/storageAccounts",
       "apiVersion": "2019-06-01",
