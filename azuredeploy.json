@@ -54,7 +54,7 @@
         "tags": {
           "ValidityPeriodDays": "60",
           "CredentialId": "primary",
-          "ProviderAddress": "[concat('/subscriptions/',[subscription().subscriptionId], '/resourceGroups/', [resourcegroup().name], '/providers/Microsoft.DocumentDb/databaseAccounts/', 'parameters(cosmosDbAccountName)')]"
+          "ProviderAddress": "[concat('/subscriptions/',subscription().subscriptionId, '/resourceGroups/', resourcegroup().name, '/providers/Microsoft.DocumentDb/databaseAccounts/', 'parameters(cosmosDbAccountName)')]"
         }
       }
     },
