@@ -2,7 +2,7 @@
 
 ## Key Vault CosmosDB Account Key Rotation Functions
 
-Functions regenerate individual key (alternating orimaryKey and secondaryKey) in CosmosDB Account and add regenerated key to Key Vault as new version of the same secret.
+Functions regenerate individual key (alternating primaryKey and secondaryKey) in CosmosDB Account and add regenerated key to Key Vault as new version of the same secret.
 
 Functions require following information stored in secret as tags:
 - $secret.Tags["ValidityPeriodDays"] - number of days, it defines expiration date for new secret
