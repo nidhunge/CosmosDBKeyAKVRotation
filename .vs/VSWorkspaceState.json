@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AKVComsosDBRotation"
   ],
-  "SelectedNode": "\\azuredeploy.json",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
