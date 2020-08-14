@@ -25,7 +25,7 @@
       }
     },
     "functionStorageAccountName": {
-      "defaultValue": "stazfunctions-dev",
+      "defaultValue": "stazfunctionsdev",
       "type": "String",
       "metadata": {
         "description": "The name of the storage account where azure functions are stored."
