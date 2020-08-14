@@ -6,7 +6,7 @@ Functions regenerate individual key (alternating primaryKey and secondaryKey) in
 
 Functions require following information stored in secret as tags:
 - $secret.Tags["ValidityPeriodDays"] - number of days, it defines expiration date for new secret
-- $secret.Tags["CredentialId"] - key id (primary|secondary)
+- $secret.Tags["CredentialId"] - key id (Primary|Secondary)
 - $secret.Tags["ProviderAddress"] - CosmosDB Account Resource Id
 
 You can create new secret with above tags and Storage access key as value or add those tags to existing secret. For automated rotation expiry date would also be required - it triggers event 30 days before expiry
