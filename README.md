@@ -17,5 +17,6 @@ You can create new secret with above tags and Storage access key as value or add
 
 Credit:
 This project was based on the following article: https://docs.microsoft.com/en-us/azure/key-vault/secrets/tutorial-rotation-dual
+
 The content of this project was copied and modifed for CosmosDb use case from here: https://github.com/jlichwa/KeyVault-Rotation-StorageAccountKey-PowerShell.git 
 
