@@ -15,7 +15,7 @@ You can create new secret with above tags and Storage access key as value or add
     <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
 
-
+**Important: Please make sure that you have added the function app in the access policy for your main/general ARM Template. You main/general ARM template overwrites the access policy in this arm template as this is executed only once.**
 
 Credit:
 
